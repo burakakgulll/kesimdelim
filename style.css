@@ -123,3 +123,12 @@ details.drawing img{margin-top:10px}
 .legend span{display:flex;align-items:center;gap:5px;background:rgba(255,255,255,.9);border-radius:6px;padding:4px 8px;font:700 17px var(--cond)}
 .legend i{width:13px;height:13px;border-radius:50%;display:inline-block}
 .zero{margin:2px 0 8px;font-size:16px;background:#FCE4E4;border-left:4px solid var(--blade);padding:6px 10px;border-radius:4px}
+.face{background:#fff;border:1px solid var(--line);border-radius:10px;margin:10px 0;padding:10px 0 4px}
+.fhead{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;padding:0 12px 6px;font-size:16px}
+.fhead span{color:var(--muted);font-size:14px}
+.fscroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.fscroll svg{display:block}
+.fscroll .tv{font:700 13px "Barlow Condensed","Arial Narrow",Arial,sans-serif;fill:#1A2026}
+.fscroll .ta{font:700 12px "Barlow Condensed","Arial Narrow",Arial,sans-serif;fill:#2B3A47}
+.fscroll .t0{font:700 15px "Barlow Condensed","Arial Narrow",Arial,sans-serif;fill:#D3212D}
+.fhint{font-size:13px;color:var(--muted);padding:0 12px 4px}
